@@ -1,0 +1,85 @@
+body {font-family: Arial, Helvetica, sans-serif;
+background-image: url("bg.jpg");
+height: 100%;
+background-repeat: no-repeat;
+display: flex;
+}
+
+form {
+background: #2f2fa2;
+width: 500px;}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-size: 15px;
+  color: white;
+  background-color: #2f2fa2;
+  display: inline-block;
+  border:none;
+  border-bottom: 2px solid white;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #2f2fa2;
+  color: #F64C72;
+  font-size: 17px;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 2PX solid #F64C72;
+  cursor: pointer;
+  width: 30%;
+}
+
+.cont button:hover{
+   background-color: #F64C72;
+  color: #2f2fa2;
+  transform: scale(1.1);
+}
+.bottom button:hover{
+   background-color: #553D67;
+  color: #99738E;
+  transform: scale(1.1);
+}
+label{
+  float: left;
+}
+
+.container{
+  vertical-align: center; 
+  padding: 16px;
+  margin: auto;
+  padding-top: 200px;
+  color: white;
+
+}
+.bottom {
+  vertical-align: center; 
+  padding: 16px;
+  background: #99738E ;
+  margin: auto;
+}
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  font-size: 15px;
+  background-color: #99738E;
+  color: #553D67;
+  border:2PX solid #553D67; 
+}
+.cont{
+  text-align: center;
+  align-content: center;
+  padding: 20px;
+}
+.imag {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+.user {
+  height: 100px;
+  align-items: center;
+}
+
